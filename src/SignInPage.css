@@ -1,0 +1,62 @@
+#shiledInSignInPage  {
+    display: none;
+}
+
+#mainContainer {
+    display : flex;
+    flex-direction: column;
+    margin : 0 auto;
+    width : 448px;
+    height : 500px;
+    border : 1px solid lightblue;
+    margin-top: 130px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height : 39%;
+    width : 70%;
+    align-items: center;
+}
+
+#subheading {
+    position: relative;
+    top : 50px;
+}
+
+#mainHeding {
+    position: relative;
+    top : 50px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: large;
+    font-stretch: narrower;
+}
+
+#buttonAndLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width : 70%;
+    position: relative;
+    top : 80px;
+}
+
+#link2 {
+    color: blue;
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#logos {
+    position: relative;
+    top : 50px;
+}
+
+.errorStatusE , .errorStatusP {
+    color : red;
+}
