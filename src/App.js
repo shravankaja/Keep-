@@ -6,12 +6,13 @@ import SignIn from './Pages/SignInPage'
 import TextFields from './Components/TextFields'
 import { TextField } from '@material-ui/core';
 import {BrowserRouter, BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Header from './Components/HeaderDashBoard';
 
 
 function App() {
   return (
 
-    <div className="App">
+    /*<div className="App">
       <BrowserRouter >
       
         <Switch>
@@ -23,6 +24,11 @@ function App() {
    
      
      </div>
+     */
+    <div className = "App">
+      <Header />
+    </div>
+
   );
 }
 
