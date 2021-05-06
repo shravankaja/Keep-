@@ -1,0 +1,118 @@
+#header {
+    height : 10vh;
+    width : 100vw;
+    border-bottom : 1px solid grey;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+#buttonAndMainHeading {
+    display : flex;
+    flex-direction: row;
+    width : 12.5%;
+    height : 100%;
+}
+
+#navbarButton {
+    width : 50%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#pageHeading {
+    position: relative;
+    width : 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+#searchBox {
+ margin-left: 3.5%;
+ width : 45%;  
+ 
+}
+
+#navbarButtonBorder {
+    border-radius: 50px;
+    width : 44%;
+    height : 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbarButtonBorder:hover {
+    background-color: #E8E8E8;
+}
+
+#icons {
+   
+    width : 8.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height : 60%;
+    align-items: center;
+    margin-left: 22%;
+}
+
+.iconContainer {
+    width : 33%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius : 30px;
+    align-items: center;
+}
+
+#rl:hover,#ri:hover,#rs:hover {
+    background-color: #E8E8E8;
+}
+
+#accoutlogo {
+    width : 6.5%;
+    margin-left: 1.2%;
+    height : 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.accountContainers {
+    width : 48%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#accountIcon {
+    border-radius: 40px;
+    background-color: palevioletred;
+    
+}
+
+#account{
+    color: white;
+    font-size: x-large;
+}
+#appIconContainer {
+    margin-right: 10px;
+}
+
+#appIconContainer:hover {
+    border-radius: 40px;
+    background-color: #E8E8E8;
+}
+
+
