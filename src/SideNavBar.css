@@ -1,0 +1,193 @@
+#sideNav {
+    width : 6%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+}
+
+.iconAndDesc {
+    display: flex;
+    flex-direction: row;
+    height : 10%;
+    align-items: center;
+    margin-top: 5% ;
+}
+
+.icon {
+    justify-content: flex-start;
+    width : 50px;
+    height : 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #feefc3;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color:#feefc3;
+}
+
+.iconDesc {
+   
+    position: relative;
+    left : 100px;
+}
+
+#sideNav:hover {
+    overflow: visible;
+    width : 18%;
+}
+
+#sideNav:hover > .iconAndDesc {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+}
+
+#sideNav:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: -1;
+    transition: 400ms ease-in;
+}
+
+.nIcon {
+    background-color: #feefc3;
+    position: absolute;
+    left : 30px;
+    width : 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.nIcon:hover {
+    background-color: #feefc3;
+}
+
+.rIcon,.elicon,.slicon, .ticon {
+    position: absolute;
+    left : 30px;
+    width : 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ricon:hover,.elicon:hover,.aicon:hover,.slicon:hover, .ticon:hover  {
+    background-color: #feefc3;
+    border-radius: 40px;
+}
+
+.rIcon {
+    background-color: #feefc3;
+    border-radius: 40px;
+}
+
+.aicon {
+    position: absolute;
+    left : 30px;
+    width : 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#notesColumn {
+    background-color: #feefc3;
+}
+
+#rColumn {
+    background-color: #feefc3;
+}
+
+#notesColumn1, #rColumn1 {
+    background-color: white;
+}
+
+#slColumn {
+    background-color: #feefc3;
+}
+#slColumn1 {
+    background-color: white;
+}
+
+.nIcon1 {
+    position: absolute;
+    left : 30px;
+    width : 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.rIcon1 {
+    position: absolute;
+    left : 30px;
+    width : 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.slIcon1 , .slIcon, .edIcon, .edIcon1, .aIcon, .aIcon1 {
+    position: absolute;
+    left : 30px;
+    width : 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.nIcon {
+    background-color: #feefc3;
+}
+
+.slIcon {
+    background-color: #feefc3;
+}
+
+.edIcon {
+    background-color: #feefc3;
+}
+
+.aIcon {
+    background-color: #feefc3;
+}
+
+.tIcon1, .tIcon {
+    position: absolute;
+    left : 30px;
+    width : 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.tIcon {
+    background-color: #feefc3;
+   
+}
+
